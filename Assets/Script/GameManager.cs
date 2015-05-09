@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 	public static int Screen_Height;
 	public static int Screen_Width;
 
-	public UISprite playerTodpole;
+	public UISprite playerTadpole;
 	public GameInput input;
 
 	// Use this for initialization
@@ -19,6 +19,6 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		playerTodpole.transform.localPosition += input.GetInputMove();
+		playerTadpole.transform.localPosition += input.GetInputMove();
 	}
 }
